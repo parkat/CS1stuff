@@ -1,0 +1,14 @@
+public class HelloWorld  {
+  public static void main(String[] args) {
+    int value = 3;
+    value = value + 5;
+    int num = value - 2;
+    num = (num + 2) * value;
+    System.out.println(num);
+    doStuff();
+ }
+ public static void doStuff() {
+   System.out.println("in doStuff");
+ }  
+}
+
